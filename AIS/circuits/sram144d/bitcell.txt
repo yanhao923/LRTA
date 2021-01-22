@@ -1,0 +1,9 @@
+.SUBCKT B6T3 BL VDDA BLB WL VSS Q QB
+x1 VSS QB Q VSS dslnfetpd_ckt81 w=0.142u l=0.055u 
+x2 VSS Q QB VSS dslnfetpd_ckt82 w=0.142u l=0.055u 
+x3 BL WL Q VSS dslnfetwl_ckt81 w=0.110u l=0.059u 
+x4 BLB WL QB VSS dslnfetwl_ckt82 w=0.110u l=0.059u 
+x5 VDDA QB Q VDDA dslpfetpu_ckt81 w=0.060u l=0.055u 
+x6 QB Q VDDA VDDA dslpfetpu_ckt82 w=0.060u l=0.055u 
+.ENDS
+
